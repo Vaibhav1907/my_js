@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="demo">my name is vaibhav.</p>
+
+<script>
+document.getElementById("demo").addEventListener("click", myFunction);
+
+
+let i = 0
+function myFunction() {
+  let arr = ['hello','i am from jaipur','i am software engineer','i am a boy']
+  document.getElementById("demo").innerHTML = arr[i];
+  i=(i+1)%arr.length
+
+}
+
+</script>
+
+</body>
+</html>
+
+

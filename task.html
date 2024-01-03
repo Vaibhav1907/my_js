@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <input type="text" placeholder="enter your name"id="vs">
+    <button onclick="vaibhav()">ok</button> -->
+    <body>
+        <h2 id="myh2" onclick="vs()">hello vaibhav</h2>
+    
+        <script>
+            let myh2 = document.getElementById('myh2')
+            let arr = ['my name is vaibhav', 'i am from rns']
+            let i = 0
+            function vs(){
+                if(i<arr.length){
+                    console.log('click button')
+                    myh2.innerText = `${arr[i]}`;
+                    i++;
+                }
+            }
+           
+        </script>
+    </body>
+    </html>
+
+    
+
+
